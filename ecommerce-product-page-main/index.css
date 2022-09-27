@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@0,200;0,400;1,300&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@900&display=swap');
+
+*{ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+--Orange: hsl(26, 100%, 55%);
+--Pale-orange: hsl(25, 100%, 94%);
+--Very-vark-blue: hsl(220, 13%, 13%);
+--Dark-grayish-blue: hsl(219, 9%, 45%);
+--Grayish-blue: hsl(220, 14%, 75%);
+--Light-grayish-blue: hsl(223, 64%, 98%);
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 0%);
+}
+
+
+body{
+    font-family: "Kumbh Sans";
+    padding: 1rem 60px 0px 60px
+}
+
+.header{
+    border-bottom: 1px solid var(--Grayish-blue);
+    height: 3rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partie1{
+display: flex;
+justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: var(--Dark-grayish-blue);
+}
+
+.logo img{
+    margin-right: 30px;
+}
+
+.avatar{
+    width: 33px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.panier{
+    margin-bottom: 15px;
+}
+
+.nav-link{
+    margin-left: 40px;
+    }
+
+
+
+.main{
+    display: flex;
+ 
+    height: 50rem;
+    
+}
+
+.gauche{
+ 
+    width: 50%;
+}
+
+.droite{
+ 
+    width: 50%;
+    margin-left: 150px;
+}
+
+.imagemain{
+    height: 500px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.thumbnails {
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.quatres-images{
+    margin-left: 5.5rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content:center;
+}
+
+.haut{
+height: 72%;
+
+
+}
+
+.bas{
+    height: 28%;
+
+}
+
+.sneaker{
+    color: var(--Orange);
+    margin-top: 100px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.edition{
+    margin-top: 25px;
+}
+
+.description{
+    color: var(--Dark-grayish-blue);
+    margin-top: 40px;
+    margin-right: 100px;
+}   
+
+.box{
+    height: 100px;
+    width: 200px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.barré{
+    color: var(--Grayish-blue);
+    text-decoration: line-through;
+}
+
+.prix{
+    margin-left: 10px;
+}
+.barré{
+    margin-left: 10px;
+}
+
+.pourcentage{
+    margin-left: 50px;
+    margin-top: 4px;
+    color: var(--Orange);
+    background-color: var(--Pale-orange);
+    height: 20px;
+    width: 30px;
+    border-radius: 4px;
+
+}
+
+.derniere{
+    width: 350px;
+    height: 50px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.compteur{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--Orange);
+    border-radius: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    border: var(--Orange);
+
+}
+
+
+.bouton{
+    background-color: var(--Light-grayish-blue);
+    border-radius: 10px;
+    height: 50px;
+    width: 180px;
+    margin-right: 15px;
+    border: var(--Light-grayish-blue);
+}
